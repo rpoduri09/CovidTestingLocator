@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing Facility Finder</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvxLHZR8yTYT22RbttnGK1vmZtR3prIjA&signed_in=true&libraries=places&callback=initialize" async defer></script>
+ 
+    
+    <script src="Script/main.js"></script>
+    
+  </head>
+  <body>
+      <div class="mainForm">
+    
+  
+  
+
+  <img src="images/logo.png" class="logo" align="left">
+  <div class="text" align="right">
+   <h2 >You have qualified to </br> take a test at location found below!</h2>
+   <p class = "headingText">For the health and safety of our community, please maintain social distancing at the testing site and ensure use of a mask and if tested positive, self-quarantine for 14 days.</p>
+  </div>
+  <label class = "name" align = "left"></label>
+ 
+    
+  <div id="map" ></div>
+<div>
+<label class = "name" style = "margin-top: 2em" align = "left">Name of Hospital</label></div></br>
+<label class = "name" style = "margin-top: 2em" align = "left">Address of Hospital</label></br>
+<label class = "name" style = "margin-top: 2em" align = "left">Latitude: </label></br>
+<label class = "name" style = "margin-top: 2em" align = "left">Longitude: </label></br>
+<div align="center" style="margin-top: 5em">
+<button type="button" class="btn btn-lg btn-primary" onclick="window.location.href='index.html'">Take Test Again</button>
+<button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='Cancel.html'">Cancel</button>
+</div>
+</div>
+
+</div>
+  </body>
+</html>
